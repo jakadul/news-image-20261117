@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+/output/
+out/
+*.png
+!assets/*.png
+.makefun/cache/
+.DS_Store

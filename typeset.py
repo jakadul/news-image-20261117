@@ -19,6 +19,7 @@ import truetype
 # ---------------------------------------------------------------------------
 
 FONT_DIRS = (
+    __import__('os').path.join(__import__('os').path.dirname(__import__('os').path.abspath(__file__)), 'fonts'),
     "/usr/share/fonts/truetype/liberation",
     "/usr/share/fonts/truetype/dejavu",
     "/usr/share/fonts/truetype/freefont",
